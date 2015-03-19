@@ -42,7 +42,10 @@ int main()
 {
 	int i=0;
 	for(i=0;i<9;i++)
+	{
+		printf("%d\n",g_index++);
 		printf("%d\n",i+1+3);
+	}
 	testfun1("xxxxx");
 	testfun("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 	return 1;
